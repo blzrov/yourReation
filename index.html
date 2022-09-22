@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./icon.jpg" type="image/jpg" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Твоя реакция</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="wrapper">
+        <span class="z-3" style="text-align: center"
+          >Проверь свою реакцию, история результатов сохраняется в
+          браузере</span
+        >
+        <h2 class="z-3">ТВОЯ РЕАКЦИЯ</h2>
+        <h3 class="z-3">Проверь свои рефлексы</h3>
+        <button
+          type="button"
+          class="buttonHistory z-3"
+          style="margin: 5px 20px; padding: 5px 20px"
+        >
+          История
+        </button>
+        <button
+          type="button"
+          class="buttonClear z-3"
+          style="margin: 5px 15px; padding: 5px 15px; display: none"
+        >
+          Очистить
+        </button>
+        <div class="popap"></div>
+        <div
+          class="history z-3"
+          style="display: none; cursor: default; overflow: auto"
+        ></div>
+        <div class="main" style="font-size: 4vh">
+          Кликни, когда будешь готов, чтобы проверить реакцию
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
